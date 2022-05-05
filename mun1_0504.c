@@ -11,6 +11,7 @@ graph* head[20];
 int* visited;
 
 void insert(int i, int data) {
+    int a = 0;
     graph* new;
     new = (graph*)malloc(sizeof(struct graph));
     new->data = data;
